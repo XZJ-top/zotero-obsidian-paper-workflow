@@ -4,12 +4,10 @@
 
 把 Zotero 里的文献，经 AI 精读，沉淀为 Obsidian 中可检索、可追溯、可补读的个人论文库。
 
-```mermaid
-graph LR
-    Z[Zotero] -->|MCP 取料| H[HanaAgent]
-    H -->|精读笔记| O[Obsidian]
-    O -->|证据不足| H
-    H -->|补读回填| Z
+```text
+Zotero  ──MCP 取料──▶  HanaAgent  ──精读笔记──▶  Obsidian
+   ▲                                              │
+   └────────────── 补读回填 ◀── 证据不足 ◀────────┘
 ```
 
 ## 特性
