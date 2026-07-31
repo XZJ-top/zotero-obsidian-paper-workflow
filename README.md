@@ -1,4 +1,4 @@
-# lit-workflow
+# Zotero-Obsidian Paper Workflow
 
 **Zotero → HanaAgent → Obsidian 论文库自动化流水线。**
 
@@ -42,7 +42,7 @@ flowchart LR
 ## 结构
 
 ```
-lit-workflow/
+zotero-obsidian-paper-workflow/
 ├── skills/
 │   ├── lit-collection-manager/     # 批处理调度 · 断点续跑
 │   ├── lit-data-fetcher/           # 单篇取料 · 批注优先
