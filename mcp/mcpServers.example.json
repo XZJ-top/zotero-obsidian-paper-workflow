@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "zotero": {
+      "type": "stdio",
+      "command": "zotero-mcp",
+      "env": {
+        "ZOTERO_LOCAL": "true"
+      }
+    },
+    "obsidian": {
+      "type": "http",
+      "url": "https://127.0.0.1:27124/mcp/",
+      "headers": {
+        "Authorization": "Bearer 在此填入你的Local-REST-API-API-key"
+      }
+    }
+  }
+}
